@@ -30,8 +30,8 @@ class App < Sinatra::Base
     when 'add'
       (@number1 + @number2).to_s 
       
-    when 'subtracts'
-      (@number1 - @number2).to_s
+    when 'subtract'
+      (@number1 - @number2).to_s 
       
     when 'multiply'
        (@number1 * @number2).to_s
@@ -39,5 +39,5 @@ class App < Sinatra::Base
     when 'divide'
       (@number1 / @number2).to_s
   end 
-end
+ end
 end 
